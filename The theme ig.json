@@ -1,29 +1,192 @@
 {
-  "name": "example",
-  "version": "4.2.0",
-  "description": "Ugly theme... Now with BLUR!",
-  "color": "#FFFFFF",
-  "authors": [
-    {
-      "name": "NEO",
-      "id": "424806150702366723"
-    }
-  ],
-  "background": {
-    "blur": 0,
-    "url": "IMG_0189.jpeg",
-    "alpha": 0.69
-  },
-  "theme_color_map": {
-    "BACKGROUND_PRIMARY": ["#000000", "#FFFFFF"],
-                        //Dark Mode , //Light Mode
-    "BACKGROUND_SECONDARY": ["rgba(0, 0, 0, 1)", "rgba(255, 255, 255, 1)"],
-  },
-  "colours": {
-    "PRIMARY_DARK": "#0F0FFF",
-    "BRAND_NEW": "transparent",
-  },
-  "unsafe_colors": {
-    "CHAT_GREY": "#000000"
-  }
-}
+    "name": "Vision",
+    "description": "A theme made by Vodka Martini",
+    "authors": [
+        {
+            "name": "nigga",
+            "id": "1068030255455015013"
+        }
+    ],
+  "semanticColors": {
+      "HEADER_PRIMARY": [
+      
+          "#f15874",
+          "#f15874"
+      ],
+      "HEADER_SECONDARY": [
+          "#f15874",
+          "#f15874"
+      ],
+
+      "ANDROID_RIPPLE": [
+        "#6f548550"
+        ],
+        
+      "TEXT_NORMAL": [
+          "#D6D6D6",
+          "#c8c8c8"
+      ],
+      "TEXT_MUTED": [
+          "#A9966A",
+          "#C8B68E"
+      ],
+      "INTERACTIVE_NORMAL": [
+          "#d8c28f",
+          "#d8c28f"
+      ],
+      "INTERACTIVE_HOVER": [
+          "#d8c28f",
+          "#d8c28f"
+      ],
+      "INTERACTIVE_ACTIVE": [
+          "#CFBA89",
+          "#d8c28f"
+      ],
+      "INTERACTIVE_MUTED": [
+          "#544A70",
+          "#c9bbc8"
+      ],
+
+      "MENTION_FOREGROUND": [
+        "#eb6f92"
+        ],
+        "REDESIGN_ACTIVITY_CARD_BACKGROUND": [
+        "#282237"
+        ],
+        "REDESIGN_BUTTON_SECONDARY_ALT_BACKGROUND": [
+        "#282237"
+        ],
+        "REDESIGN_BUTTON_SECONDARY_BACKGROUND": [
+        "#282237"
+        ],
+        "REDESIGN_BUTTON_SECONDARY_BORDER": [ 
+        "#a79ab3"
+        ],
+        "REDESIGN_CHANNEL_CATEGORY_NAME_TEXT": [
+        "#e0def4"
+        ],
+        "REDESIGN_CHANNEL_NAME_TEXT": [
+        "#F4EAE5"
+        ],
+        "REDESIGN_CHAT_INPUT_BACKGROUND": [
+        "#26233a"
+        ],
+        "SPOILER_HIDDEN_BACKGROUND": [
+        "#21202e"
+        ],
+      "BACKGROUND_PRIMARY": [
+          "#161519",
+          "#161519"
+      ],
+      "BACKGROUND_SECONDARY": [
+          "#282237",
+          "#29272E"
+      ],
+      "BACKGROUND_SECONDARY_ALT": [
+          "#0E0D10",
+          "#0E0D10"
+      ],
+      "BACKGROUND_TERTIARY": [
+          "#121215",
+          "#121215"
+      ],
+      "BACKGROUND_ACCENT": [
+          "#4D4660",
+          "#504863"
+      ],
+      "BG_BACKDROP": [
+        "#12121070",
+        "#504863"
+    ],
+        "BORDER_FAINT": [
+        "#a79ab3"
+        ],
+        "BORDER_STRONG": [
+        "#a79ab3"
+        ],      
+        "BORDER_SUBTLE": [
+        "#a79ab3"
+        ],
+      "BACKGROUND_FLOATING": [
+          "#29272E",
+          "#29272E"
+      ],
+      "BACKGROUND_MOBILE_PRIMARY": [
+          "#161519",
+          "#222228"
+      ],
+      "BACKGROUND_MOBILE_SECONDARY": [
+          "#161519",
+          "#161519"
+      ],
+      "BACKGROUND_NESTED_FLOATING": [
+          "#161519",
+          "#161519"
+      ],
+      "CARD_SECONDARY_BG": [
+        "#121215"
+        ],
+        "CARD_PRIMARY_BG": [
+        "#121215"
+        ],
+      "BACKGROUND_MESSAGE_HOVER": [
+          "#1F1F2B",
+          "#1F1F2B"
+      ],
+      "BACKGROUND_MODIFIER_HOVER": [
+          "#1a1926",
+          "#1a1926"
+      ],
+      "BACKGROUND_MODIFIER_ACTIVE": [
+          "#1F1F2B",
+          "#1F1F2B"
+      ],
+      "BACKGROUND_MODIFIER_SELECTED": [
+          "#2F293D",
+          "#373147"
+      ],
+      "BACKGROUND_MODIFIER_ACCENT": [
+          "#29272E",
+          "#29272E"
+      ],
+      "SCROLLBAR_THIN_THUMB": [
+          "#26273b",
+          "#26273b"
+      ],
+      "SCROLLBAR_THIN_TRACK": [
+          "transparent",
+          "transparent"
+      ],
+      "SCROLLBAR_AUTO_THUMB": [
+          "#26273b",
+          "#26273b"
+      ],
+      "SCROLLBAR_AUTO_TRACK": [
+          "1a1926",
+          "1a1926"
+      ],
+      "CHANNEL_TEXT_AREA_PLACEHOLDER": [
+          "#A9966A",
+          "#d8c28f"
+      ],
+      "CHANNELTEXTAREA_BACKGROUND": [
+          "#111111",
+          "#111111"
+      ],
+      "CHANNELS_DEFAULT": [
+          "#5E537C",
+          "#7c6ea7"
+      ],
+      "TEXT_LINK": [
+          "#a297c3",
+          "#a297c3"
+      ],
+      "KEYBOARD": [
+          "#161519",
+          "#161519"
+      ],
+      "CHANNEL_ICON": [
+          "#BFBFBF",
+          "#BFBFBF"
+      ]
+  
